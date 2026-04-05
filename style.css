@@ -818,3 +818,54 @@ body:has(#admin:target) #acad {
   padding: 10px 16px 6px;
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  nav a {
+    padding: 6px 12px;
+    font-size: 13px;
+    margin-left: 6px;
+  }
+
+  .updates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .campus-container {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .floor-menu {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .campus-pic {
+    padding: 16px;
+  }
+
+  .room-section img {
+    height: 220px;
+  }
+
+  .dept-wrapper {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .dept-tabs {
+    width: 100%;
+  }
+
+  .about-text {
+    width: 95%;
+  }
+
+}
