@@ -1,6 +1,3 @@
-
-Copy
-
 body{
 margin:0;
 font-family: 'Source Sans 3', sans-serif;
@@ -80,7 +77,8 @@ margin:20px auto;
  
 .updates,
 .department-container{
-background:rgba(255,255,255,0.9);
+background:rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
 border-radius:12px;
 margin:20px;
 padding:20px;
@@ -839,14 +837,11 @@ body:has(#admin:target) #acad {
   .updates-grid {
     grid-template-columns: 1fr 1fr;
     gap: 12px;
-    width: 95%;
   }
  
   .update-box img {
     height: auto;
     aspect-ratio: 4 / 3;
-    object-fit: cover;
-    object-position: center top;
   }
  
   .campus-container {
@@ -885,13 +880,8 @@ body:has(#admin:target) #acad {
 @media (max-width: 420px) {
   .updates-grid {
     grid-template-columns: 1fr;
-    gap: 14px;
   }
- 
   .update-box img {
-    height: auto;
     aspect-ratio: 16 / 9;
-    object-fit: cover;
-    object-position: center top;
   }
 }
