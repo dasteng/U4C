@@ -1,14 +1,11 @@
 body{
 margin:0;
 font-family: 'Source Sans 3', sans-serif;
-  
 background-image:url(pictures/UccBack.jpg);
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
 background-attachment:fixed;
- 
-/* fallback */
 background-color: #2fa84f;
 }
  
@@ -73,16 +70,24 @@ margin:20px auto;
 }
  
  
-/* GLASS CONTAINER EFFECT */
- 
-.updates,
-.department-container{
-background:rgba(255,255,255,0.15);
-backdrop-filter: blur(10px);
-border-radius:12px;
-margin:20px;
-padding:20px;
-box-shadow:0 4px 15px rgba(0,0,0,0.3);
+/* glass container */
+
+.department-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.updates {
+background: rgba(255,255,255,0.80);
+
+  border-radius: 12px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
  
 .about{
